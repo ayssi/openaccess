@@ -1,12 +1,12 @@
 ## Welcome to the Openaccess Ayssi GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/ayssi/openaccess/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Le Maroc, enregistre peu d’initiatives d’Open Access. Une des rares initiatives nationales de ce genre a été lancée, en 2008, par l’IMIST-CNRST. Il s’agit du catalogue national des thèses et mémoires « Toubqal » qui permet une grande visibilité des thèses et mémoires soutenus au Maroc et du portail des revues scientifiques marocaines. La deuxième initiative s’inscrit dans le cadre du projet Tempus ISTeMag « Optimisation de l’accès à l’Information Scientifique et Technique » Lancé en 2009. Le projet Tempus ISTeMag de la Commission Européenne a pour objectif d’optimiser l’accès à l’IST dans les pays du Maghreb en créant un portail d’accès aux ressources électroniques.
+
+
+Pour remédier au manque d’intérêt pour l’Open Access au niveau national et renforcer sa contribution au développent de la recherche scientifique au Maroc,  l’IMIST-CNRST a eu le plaisir d’organiser cette première édition de la journée Open Access au Maroc. Cet événement est organisé dans le cadre de la célébration de la semaine internationale de l’Open Acess à travers le monde.
 
 ```markdown
 Syntax highlighted code block
@@ -15,23 +15,3 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ayssi/openaccess/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

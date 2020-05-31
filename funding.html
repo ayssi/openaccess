@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.0.2"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousHeight": 300, "continuousWidth": 400}}, "encoding": {"y": {"type": "quantitative", "field": "Number"}, "x": {"type": "nominal", "field": "Funding"}}, "datasets": {"data-5f1e8aaf6274cbd544e626e96bf25427": [{"Number": 502, "Funding": "CNRST"}, {"Number": 448, "Funding": "Japan Society for the Promotion of Science"}, {"Number": 445, "Funding": "National Natural Science Foundation of China"}, {"Number": 437, "Funding": "National Science Foundation"}, {"Number": 418, "Funding": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek"}, {"Number": 415, "Funding": "Natural Sciences and Engineering Research Council of Canada"}, {"Number": 413, "Funding": "U.S. Department of Energy"}, {"Number": 407, "Funding": "General Secretariat for Research and Technology"}, {"Number": 402, "Funding": "Ministry of Education, Culture, Sports, Science and Technology"}, {"Number": 401, "Funding": "Joint Institute for Nuclear Research"}, {"Number": 396, "Funding": "Danmarks Grundforskningsfond"}, {"Number": 390, "Funding": "Science and Technology Facilities Council"}, {"Number": 388, "Funding": "Leverhulme Trust"}, {"Number": 388, "Funding": "Ministry of Science and Technology"}, {"Number": 386, "Funding": "CERN"}, {"Number": 386, "Funding": "Istituto Nazionale di Fisica Nucleare"}, {"Number": 385, "Funding": "Iowa Science Foundation"}, {"Number": 379, "Funding": "Australian Research Council"}]}, "data": {"name": "data-5f1e8aaf6274cbd544e626e96bf25427"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.0.2.json", "mark": "bar"};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
